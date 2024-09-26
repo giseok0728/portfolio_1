@@ -110,6 +110,17 @@
 }
 
 
+.mob_side{
+    display: none;
+}
+
+
+
+
+
+
+
+
 /* 메인 콘텐츠 */
 .M_in_cover{
     display: none;

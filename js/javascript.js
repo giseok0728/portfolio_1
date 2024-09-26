@@ -135,3 +135,21 @@ var ytbSwiper = new Swiper(".mySwiper", {
       }
     })
   })
+
+  $(document).ready(function(){
+    $(".mo_gnb_list li dl dt").click(function(){
+      $(this).addClass("ac");
+      $(this).siblings().removeClass("ac");
+    })
+  });
+
+
+  $(document).ready(function(){
+    $(".M_hbg_btn").click(function(){
+      $(".mob_side").show()
+    });
+
+    $(".close_btn").click(function(){
+      $(".mob_side").hide()
+    });
+  });
