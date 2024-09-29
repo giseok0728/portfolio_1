@@ -278,7 +278,9 @@
     .ac{
         border-bottom: none;
     }
+    
 
+    
 
     .mo_gnb_list > li > dl > dt > a{
         padding-right: 2rem;
@@ -291,6 +293,12 @@
         overflow-y: auto;
         display: none;
     }
+
+    .mo_gnb_list > li > dl > dd.at{
+        display: block;
+        margin-top: 15px;
+    }
+
 
     .mo_gnb_list .gnb_menu2_list{
         display: block;
@@ -627,6 +635,9 @@
     
 
 
+    .box1_span{
+        padding-left: 0;
+    }
 
 
 
@@ -638,5 +649,52 @@
 
 
 
+}
+
+
+@media(max-width:500px){
+    .content_box2_icon{
+        width: 64px;
+        height: 55px;
+        background-size: cover;
+    }
+
+    .content_box2_btn{
+        font-size: 16px;
+        word-break: keep-all;
+    }
+
+    .content2,
+    .content2_li{
+        margin: 0;
+    }
+    .sub_box3 p{
+        word-break: keep-all;
+    }
+
+    .sub_box1 span,
+    .sub_box2 span{
+        font-size: 22px;
+    }
+
+    .M_news_bar_txt li a span{
+        font-size: 16px;
+    }
+
+    .ft_left_p{
+        font-size: 13px;
+    }
+
+    .footer .ft_wrap .ft_left ul li p:not(:nth-child(1)){
+        padding-left: 14px;
+    }
+
+    .ft_left_p::before{
+        margin-right: 6px;
+    }
+
+    .ft_right_logo img{
+        height: 36px;
+    }
 
 }

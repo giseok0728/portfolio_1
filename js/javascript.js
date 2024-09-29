@@ -153,3 +153,9 @@ var ytbSwiper = new Swiper(".mySwiper", {
       $(".mob_side").hide()
     });
   });
+
+
+  //
+  $("#mo_gnb > li").click(function(){
+    $(this).find('dd').toggleClass('at');
+  });
